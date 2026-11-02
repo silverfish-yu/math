@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>在线数学测试</title>
+</head>
+<body>
+    <form action="#" method="post">
+        
+        <h2>在线数学小测验</h2>
+        <div>
+            <label for="studentName">请输入你的名字: </label>
+            <input type="text" id="studentName" name="studentName" required>
+        </div>
+        <br>
+
+        <hr>
+        <h3>一、单选题</h3>
+        <p>1. 请问 5 &times; 6 等于多少？</p>
+        <input type="radio" id="q1a" name="question1" value="25">
+        <label for="q1a">A. 25</label><br>
+        <input type="radio" id="q1b" name="question1" value="30">
+        <label for="q1b">B. 30</label><br>
+        <input type="radio" id="q1c" name="question1" value="35">
+        <label for="q1c">C. 35</label><br><br>
+        <p>2. 请问 12 &divide; 4 的结果是？</p>
+        <input type="radio" id="q2a" name="question2" value="2">
+        <label for="q2a">A. 2</label><br>
+        <input type="radio" id="q2b" name="question2" value="3">
+        <label for="q2b">B. 3</label><br>
+        <input type="radio" id="q2c" name="question2" value="4">
+        <label for="q2c">C. 4</label><br><br>
+        <p>3. 圆周率的近似值是多少？</p>
+        <input type="radio" id="q3a" name="question3" value="3.14">
+        <label for="q3a">A. 3.14</label><br>
+        <input type="radio" id="q3b" name="question3" value="2.71">
+        <label for="q3b">B. 2.71</label><br>
+        <input type="radio" id="q3c" name="question3" value="1.41">
+        <label for="q3c">C. 1.41</label><br><br>
+
+        <hr>
+        <h3>二、应用题</h3>
+        <p>小明去买苹果，每个苹果 3 元。他买了 5 个苹果，付给老板 20 元。请问老板应该找零多少钱？请写出你的计算过程。</p>
+        <textarea id="wordProblem" name="wordProblem" rows="4" cols="50" placeholder="请在此输入你的解答过程..."></textarea>
+        <br><br>
+
+        <hr>
+        <input type="submit" value="提交试卷 (Submit Test)">
+
+    </form>
+
+</body>
+</html>
